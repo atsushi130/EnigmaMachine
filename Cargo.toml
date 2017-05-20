@@ -1,7 +1,11 @@
 [package]
-name    = "enigma_machine"
-version = "0.1.0"
-authors = ["atsushi130 <atsushi_main@outlook.jp>"]
+name        = "enigma_machine"
+version     = "0.1.0"
+authors     = ["atsushi130 <atsushi_main@outlook.jp>"]
+license     = "MIT"
+readme      = "README.md"
+repository  = "https://github.com/takatori/rawst"
+keywords    = ["enigma machine", "enigma", "cipher", "encryption", "encrypt", "decryption", "decrypt"]
 
 [dependencies]
 lazy_static     = "*"
