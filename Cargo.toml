@@ -1,0 +1,12 @@
+[package]
+name    = "enigma_machine"
+version = "0.1.0"
+authors = ["atsushi130 <atsushi_main@outlook.jp>"]
+
+[dependencies]
+lazy_static     = "*"
+rustc-serialize = "*"
+
+[lib]
+name = "enigma_machine"
+path = "./src/lib.rs"
