@@ -9,8 +9,8 @@ repository  = "https://github.com/takatori/rawst"
 keywords    = ["enigma", "cipher", "encrypt", "decrypt"]
 
 [dependencies]
-lazy_static     = "*"
-rustc-serialize = "*"
+lazy_static     = "0.2.8"
+rustc-serialize = "0.3.24"
 
 [lib]
 name = "enigma_machine"
