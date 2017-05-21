@@ -5,7 +5,7 @@ authors     = ["atsushi130 <atsushi_main@outlook.jp>"]
 license     = "MIT"
 description = "This crate is Enigma Machine corresponding to various character strings."
 readme      = "README.md"
-repository  = "https://github.com/takatori/rawst"
+repository  = "https://github.com/atsushi130/EnigmaMachine/
 keywords    = ["enigma", "cipher", "encrypt", "decrypt"]
 
 [dependencies]
