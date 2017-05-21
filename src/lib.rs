@@ -2,7 +2,7 @@
 #[macro_use]
 extern crate lazy_static;
 
-extern crate rustc_serialize;
+extern crate base64;
 
 mod enigma_machine;
 pub use self::enigma_machine::{ Enigma, Router, Reflector, Plugboard, SubstitutionTable };
