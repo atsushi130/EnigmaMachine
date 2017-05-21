@@ -2,8 +2,8 @@
 /// enigma module
 use super::{ Router, Reflector, RouterManager, Plugboard };
 
-/// rust_serialize module
-use rustc_serialize::base64::{ ToBase64, FromBase64,STANDARD };
+/// base64 module
+use base64::{ encode, decode };
 
 pub struct Enigma {
     router_manager: RouterManager,
@@ -42,7 +42,7 @@ impl Enigma {
 
     fn encode_base64(&self, string: &str) -> String {
         let bytes = string.as_bytes();
-        bytes.to_base64(STANDARD)
+        encode(&bytes)
     }
 
     pub fn decrypt(&mut self, string: &str) -> String {
@@ -63,7 +63,7 @@ impl Enigma {
     }
 
     fn decode_base64(&self, string: &str) -> String {
-        let bytes = string.from_base64().unwrap();
+        let bytes = decode(string).unwrap();
         String::from_utf8(bytes).unwrap()
     }
 
