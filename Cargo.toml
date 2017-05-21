@@ -1,6 +1,6 @@
 [package]
 name        = "enigma_machine"
-version     = "0.1.0"
+version     = "0.1.1"
 authors     = ["atsushi130 <atsushi_main@outlook.jp>"]
 license     = "MIT"
 description = "This crate is Enigma Machine corresponding to various character strings."
