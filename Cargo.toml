@@ -1,6 +1,6 @@
 [package]
 name        = "enigma_machine"
-version     = "0.1.1"
+version     = "0.1.2"
 authors     = ["atsushi130 <atsushi_main@outlook.jp>"]
 license     = "MIT"
 description = "This crate is Enigma Machine corresponding to various character strings."
@@ -9,8 +9,8 @@ repository  = "https://github.com/atsushi130/EnigmaMachine/"
 keywords    = ["enigma", "cipher", "encrypt", "decrypt"]
 
 [dependencies]
-lazy_static   = "0.2.8"
-base64        = "~0.5.0"
+lazy_static = "0.2.8"
+base64      = "~0.5.0"
 
 [lib]
 name = "enigma_machine"
